@@ -5,4 +5,35 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\ConsoleTest.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\ConsoleTest.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\ConsoleTest.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\ConsoleTest.runtimeconfig.json" />
+    <Content Include="obj\ConsoleTest.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\netcoreapp3.1\ConsoleTest.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\ConsoleTest.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ConsoleTest.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\ConsoleTest.pdb" />
+    <None Include="obj\ConsoleTest.csproj.nuget.g.props" />
+    <None Include="obj\ConsoleTest.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\netcoreapp3.1\ConsoleTest.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\ConsoleTest.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\ConsoleTest.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\ConsoleTest.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\ConsoleTest.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\ConsoleTest.exe" />
+    <None Include="obj\Debug\netcoreapp3.1\ConsoleTest.genruntimeconfig.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\ConsoleTest.pdb" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
 </Project>

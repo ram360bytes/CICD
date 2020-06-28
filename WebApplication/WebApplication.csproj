@@ -4,4 +4,46 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\WebApplication.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\WebApplication.RazorAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\appsettings.Development.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\appsettings.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\Properties\launchSettings.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\WebApplication.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\WebApplication.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\WebApplication.runtimeconfig.json" />
+    <Content Include="obj\Debug\netcoreapp3.1\WebApplication.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\WebApplication.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\WebApplication.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\WebApplication.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\WebApplication.Views.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\WebApplication.Views.pdb" />
+    <None Include="obj\Debug\netcoreapp3.1\WebApplication.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\WebApplication.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\WebApplication.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\WebApplication.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\WebApplication.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\WebApplication.pdb" />
+    <None Include="obj\Debug\netcoreapp3.1\WebApplication.RazorAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\WebApplication.Views.dll" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\WebApplication.csproj.nuget.g.props" />
+    <None Include="obj\WebApplication.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="obj\Debug\netcoreapp3.1\Razor\Views\Home\" />
+    <Folder Include="obj\Debug\netcoreapp3.1\Razor\Views\Shared\" />
+    <Folder Include="obj\Debug\netcoreapp3.1\staticwebassets\" />
+  </ItemGroup>
+
 </Project>
